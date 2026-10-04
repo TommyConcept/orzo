@@ -1,0 +1,15 @@
+{
+  "name": "oryzo-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portable export of the public ORYZO frontend",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
